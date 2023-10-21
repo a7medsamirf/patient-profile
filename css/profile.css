@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #eef5ff;
+    overflow-x: hidden;
+}
+
+/* .card{
+    border: 1px solid rgba(0,0,0,.125);
+} */
+.card,
+.list-group,
+.classic-tabs,
+.tab-content{
+    box-shadow: 0px 14px 22px -9px rgb(187 203 216 / 47%) !important;
+    
+}
+
+.card .card-img-top{
+    width: 25%;
+}
+
+
+.graph-box {
+    background: #7289DE;
+    border-bottom: 8px solid #6A5DEE;
+}
+
+.sidebar-wrap {
+    top: 100px;
+}
+
+.sidebar-wrap {
+    position: sticky !important;
+}
+
+
+.pull-right {
+    padding: 8px;
+}
+.card.classic-admin-card.text-center.warning-color{
+    border-bottom: 8px solid #c98d14;
+}
+
+.card.classic-admin-card.text-center.light-blue{
+    border-bottom: 8px solid #0190d1;
+}
+
+.card.classic-admin-card.text-center.red.accent-2{
+    border-bottom: 8px solid #b70000;
+}
